@@ -1,7 +1,7 @@
 services:
-  image: 
-  container_name:
-  restart:
+  image: rancher/server:latest
+  container_name: myroseno_rancher
+  restart: unless-stopped
   volumes:
     - /tmp/user-rancher:/container/certs
   ports:
