@@ -2,12 +2,7 @@
     #rancher-server:
       image: rancher/rancher
       restart: unless-stopped
-      #command: "entrypoint.sh"
       container_name: myroseno
-     #environment:
-        #CATTLE_DB_LIQUIBASE_MYSQL_URL: $JDBC_URL
-        #CATTLE_DB_CATTLE_MYSQL_URL: $JDBC_URL
-        #CATTLE_DB_CATTLE_GO_PARAMS: "tls=true"
       volumes:
         - /var/lib/rancher
         - /var/log/auditlog
