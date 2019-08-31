@@ -1,10 +1,6 @@
   services:
-    #rancher-server:
-      image: rancher/rancher
+      image: rancher/server:stable
       restart: unless-stopped
-      container_name: myroseno
-      volumes:
-        - /var/lib/rancher
-        - /var/log/auditlog
+      container_name: elza
       ports:
-        - "8443:443"
+        - "8080:8080"
