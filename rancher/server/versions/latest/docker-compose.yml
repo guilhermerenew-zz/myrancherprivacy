@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  web: 
+   image: rancher/rancher:latest
+   restart: unless-stopped
+   #volumes: /opt/rancher:/var/lib/rancher
+   container_name: elzita
+   ports:
+    - "8080:80"
+    - "8443:443"
