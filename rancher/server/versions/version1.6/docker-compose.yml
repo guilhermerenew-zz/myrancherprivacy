@@ -1,0 +1,6 @@
+  services:
+      image: rancher/server:stable
+      restart: unless-stopped
+      container_name: elza
+      ports:
+        - "8081:8080"
