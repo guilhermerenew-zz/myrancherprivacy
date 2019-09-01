@@ -1,4 +1,5 @@
 # myrancherprivacy
+Guilherme Oliveira, old 21 years
 My Ranchers Repository 😊
 
 Informação sobre a primeira versão em repo v1.6.28
