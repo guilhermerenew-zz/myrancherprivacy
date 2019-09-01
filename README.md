@@ -3,9 +3,9 @@ Guilherme Oliveira, old 21 years \
 My Ranchers Repository 😊
 
 # Release v1.6.28 
-- Developing/Testing Rancher Server Container
+Developing/Testing Rancher Server Container
 
-The Rancher server container is comprised of multiple components (e.g. cattle, rancher-compose-executor, websocket-proxy). It is often more efficient to run rancher/server using a master branch of one of these sub components than it is to build a whole new release of rancher/server. One can use the rancher/server:master container to run different components pointing to specific branches (including master) of the component instead having it pointed to a specific released version.
+- The Rancher server container is comprised of multiple components (e.g. cattle, rancher-compose-executor, websocket-proxy). It is often more efficient to run rancher/server using a master branch of one of these sub components than it is to build a whole new release of rancher/server. One can use the rancher/server:master container to run different components pointing to specific branches (including master) of the component instead having it pointed to a specific released version.
 
 # Release v2.0
 - Rancher \
