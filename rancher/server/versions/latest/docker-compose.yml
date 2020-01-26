@@ -2,8 +2,14 @@ version: '3.2'
 services:
   web: 
    image: rancher/rancher:latest
+<<<<<<< HEAD
    restart: unless-stopped
+   volumes: 
+    - /Users/Macbook/rancher-data:/var/lib/rancher
+=======
+   #restart: unless-stopped
    #volumes: /opt/rancher:/var/lib/rancher
+>>>>>>> 996a1288158ab74e177b83de2f18ff5fbf514867
    container_name: elzita
    ports:
     - "8080:80"
